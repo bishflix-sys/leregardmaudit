@@ -1,6 +1,7 @@
 'use client';
 
-import { APIProvider, Map, AdvancedMarker, Pin, Polyline } from '@vis.gl/react-google-maps';
+import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps';
+import { Polyline } from './polyline';
 import { GOOGLE_MAPS_API_KEY } from '@/config';
 import type { NumericalID } from '@/lib/types';
 import { Card, CardContent } from '@/components/ui/card';
